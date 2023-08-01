@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link href="desktop.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="scrimba.png">
     <title>Scrimbafy.me</title>
 </head>
@@ -14,21 +15,23 @@
         <p class="bottom-text">CURRENTLY IN BETA</p>
     </section>
     <main>
-        <img class="avatar" src="/images/eu.png">
-        <h2>Scrimbafy.me</h2>
-        <h3>Liven up your profile pic</h3>
-        <p>
-            The colorful and iconic Scrimba avatars are no longer just for members
-            of the Scrimba team and its Avengers-caliber group of code reviewers.
-            You can Scrimbafy your photo today!
-        </p>
-        <form>
-            <input type="text" placeholder="Name" aria-label="Name" required>
-            <input type="email" placeholder="Email" aria-label="Email" required>
-            <input type="file" accept="image/png, image/jpg" aria-label="Choose file" required>
-            <button>Submit</button>
-            <span>We'll never share your information without permission</span>
-        </form>
+        <div class="container">
+            <img class="avatar" src="/images/eu.png">
+            <h2>Scrimbafy.me</h2>
+            <h3>Liven up your profile pic</h3>
+            <p>
+                The colorful and iconic Scrimba avatars are no longer just for members
+                of the Scrimba team and its Avengers-caliber group of code reviewers.
+                You can Scrimbafy your photo today!
+            </p>
+            <form>
+                <input type="text" placeholder="Name" aria-label="Name" required>
+                <input type="email" placeholder="Email" aria-label="Email" required>
+                <input type="file" accept="image/png, image/jpg" aria-label="Choose file" required>
+                <button>Submit</button>
+                <span>We'll never share your information without permission</span>
+            </form>
+        </div>
     </main>
 </body>
 </html>
